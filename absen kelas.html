@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Absen Kelas Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Absensi Kelas: teknik informatika</h1>
+        <p id="tanggal-sekarang"></p>
+
+        <div class="form-absensi">
+            <label for="nama-siswa">Nama Siswa:</label>
+            <select id="nama-siswa">
+                <option value="">-- Pilih Nama --</option>
+                </select>
+            <button onclick="submitAbsen()">Absen Masuk</button>
+        </div>
+
+        <h2>Daftar Kehadiran Hari Ini</h2>
+        <table id="tabel-absensi">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama Siswa</th>
+                    <th>Waktu Absen</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
